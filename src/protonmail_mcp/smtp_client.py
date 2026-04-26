@@ -142,7 +142,8 @@ class SMTPClient:
         async with aiosmtplib.SMTP(
             hostname=self._settings.smtp_host,
             port=self._settings.smtp_port,
-            use_tls=True,
+            use_tls=False,
+            start_tls=True,
             tls_context=self._ssl_ctx,
         ) as client:
             await client.login(self._settings.username, self._settings.password)
