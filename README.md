@@ -1,6 +1,6 @@
 # protonmail-mcp-server
 
-[![CI](https://github.com/mattias242/protonmail-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/mattias242/protonmail-mcp-server/actions/workflows/ci.yml)
+[![CI](https://github.com/nick-rabbat/protonmail-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/nick-rabbat/protonmail-mcp-server/actions/workflows/ci.yml)
 
 A [Model Context Protocol](https://modelcontextprotocol.io) server that lets Claude read, search, and send email through a locally running [ProtonMail Bridge](https://proton.me/mail/bridge).
 
@@ -13,7 +13,7 @@ A [Model Context Protocol](https://modelcontextprotocol.io) server that lets Cla
 ## Installation
 
 ```bash
-git clone https://github.com/mattias242/protonmail-mcp-server
+git clone https://github.com/nick-rabbat/protonmail-mcp-server
 cd protonmail-mcp-server
 uv sync
 cp .env.example .env

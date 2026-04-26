@@ -5,7 +5,7 @@ Thank you for your interest in contributing!
 ## Development setup
 
 ```bash
-git clone https://github.com/mattias242/protonmail-mcp-server
+git clone https://github.com/nick-rabbat/protonmail-mcp-server
 cd protonmail-mcp-server
 uv sync
 cp .env.example .env  # fill in your Bridge credentials
